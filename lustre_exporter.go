@@ -24,6 +24,7 @@ import (
 	"github.com/GSI-HPC/lustre_exporter/sources"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/prometheus/common/log@v0.26.0"
 	"github.com/prometheus/common/version"
 )
 
